@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Application.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "01.Application">
+   </Group>
+   <Group
+      location = "container:"
+      name = "02.Infrastructure">
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.Core/Infrastructure.Core.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.Hosting/Infrastructure.Hosting.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.HttpClient/Infrastructure.HttpClient.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.HttpClient.Hosting/Infrastructure.HttpClient.Hosting.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.HttpClient.Curl/Infrastructure.HttpClient.Curl.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.DataStorage/Infrastructure.DataStorage.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.DataStorage.Hosting/Infrastructure.DataStorage.Hosting.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../02.Infrastructure/Infrastructure.DataStorage.RealmSwift/Infrastructure.DataStorage.RealmSwift.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

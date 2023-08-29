@@ -1,0 +1,19 @@
+//
+//  Environment_DEV.xcconfig
+//  Application
+//
+//  Created by Irving Huang on 2023/1/11.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+Environment = DEV
+
+APP_BUNDLE_IDENTIFIER = com.irvinghuang.application.dev
+
+APP_DISPLAY_NAME = 開發版
+
+APP_SERVICE_URL = https:/$()/www.example.com/dev
+
+APP_URL_SCHEME = applicationdev
