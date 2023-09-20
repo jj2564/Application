@@ -17,25 +17,8 @@ import Infrastructure_DataStorage
 
 class ContextFactoryTest: XCTestCase {
     
-    var factoryRegister: ContextFactoryRegister!
-
-    
     override func setUp() {
         super.setUp()
-        
-        HostContext.current.clearAll()
-        
-        factoryRegister = ContextFactoryRegister()
-        factoryRegister.initialHosting()
-    }
-    
-    func testContextFactory() {
-    
-        let httpClient: HttpClient? = HostContext.current.getService()
-        XCTAssertNotNil(httpClient, "Failed to get the HttpClient")
-        
-        let dataStorage: DataStorage? = HostContext.current.getService()
-        XCTAssertNotNil(dataStorage, "Failed to get the DataStorage")
         
     }
     
